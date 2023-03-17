@@ -9,7 +9,7 @@ const HeroBanner = () => {
       p="20px"
     >
       <Typography color="#FF2625" fontWeight="600" fontSize="26px">
-        Fitness Club
+        <span style={{ color: "#e88383" }}>Sujith's</span>&nbsp;Fitness Club
       </Typography>
       <Typography
         fontWeight={700}
@@ -17,8 +17,8 @@ const HeroBanner = () => {
         mb="23px"
         mt="30px"
       >
-        Sweat, Smile <br />
-        And Repeat
+        Sweat Now <br />
+        Glow Later
       </Typography>
       <Typography fontSize="22px" fontFamily="Alegreya" lineHeight="35px">
         Check out the most effective exercises personalized to you
